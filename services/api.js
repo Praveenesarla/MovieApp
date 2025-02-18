@@ -10,6 +10,6 @@ export const fetchMovies = async (keyword = "squid") => {
     return response.data;
   } catch (error) {
     console.error("Error fetching movies:", error);
-    return { Search: [] }; // Return an empty list in case of an error
+    return { Search: [] };
   }
 };
